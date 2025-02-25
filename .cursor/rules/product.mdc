@@ -1,8 +1,10 @@
 ---
 description: プロダクトマネージャー向けのルール
-globs: 
+globs: *.md,*.txt,*.doc,*.docx,*.pdf,*.ppt,*.pptx,*.xls,*.xlsx,*.csv,*.json,*.xml,*.yaml,*.yml
 alwaysApply: false
 ---
+
+プロダクトマネージャー向けのルールです
 
 主に要件定義、ロードマップ作成、優先順位付け、ユーザーストーリー作成、KPI設定、フィードバック収集などのプロダクト管理に関する手順について記載します。
 Cursor Agentで調査して記述してください。 

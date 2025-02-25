@@ -1,8 +1,10 @@
 ---
 description: QAエンジニア向けのルール
-globs: 
+globs: *.test.js,*.spec.js,*.test.ts,*.spec.ts,*.feature,*.robot,*.postman_collection.json,*.jmx,*.cy.js,*.cy.ts
 alwaysApply: false
 ---
 
+QAエンジニア向けのルールです
+
 主にテスト計画、テストケース作成、自動テスト、手動テスト、回帰テスト、パフォーマンステスト、セキュリティテストなどの品質保証に関する手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 

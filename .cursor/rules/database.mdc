@@ -1,9 +1,10 @@
 ---
 description: データベースエンジニア向けのルール
-globs: 
+globs: *.sql,*.prisma,*.graphql,*.mongodb,*.hql,*.cql,*.pgsql,*.sqlite,*.db,*.migration.js,*.migration.ts
 alwaysApply: false
 ---
 
+データベースエンジニア向けのルールです
 
 主にデータモデリング、クエリ最適化、マイグレーション、バックアップ・リカバリ、レプリケーション、シャーディングなどのデータベース関連の手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 

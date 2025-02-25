@@ -1,8 +1,10 @@
 ---
 description: セキュリティエンジニア向けのルール
-globs: 
+globs: *.log,*.pcap,*.nmap,*.xml,*.json,*.yaml,*.yml,*.conf,*.policy,*.rules,*.key,*.crt,*.pem,*.csr
 alwaysApply: false
 ---
 
+セキュリティエンジニア向けのルールです
+
 主に脆弱性診断、セキュリティ設計、認証・認可の実装、暗号化、侵入検知、インシデント対応などのセキュリティ関連の手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 

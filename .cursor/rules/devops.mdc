@@ -1,8 +1,10 @@
 ---
 description: DevOpsエンジニア向けのルール
-globs: 
+globs: *.yml,*.yaml,*.tf,*.tfvars,*.dockerfile,Dockerfile,*.sh,*.bash,*.conf,*.toml,*.ini,*.json,*.env
 alwaysApply: false
 ---
+
+DevOpsエンジニア向けのルールです
 
 主にCI/CDパイプライン、コンテナ化、オーケストレーション、モニタリング、ロギング、自動化、障害対応などのDevOps関連の手順について記載します。
 Cursor Agentで調査して記述してください。 

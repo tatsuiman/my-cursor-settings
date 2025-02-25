@@ -1,8 +1,10 @@
 ---
 description: モバイルアプリ開発者向けのルール
-globs: 
+globs: *.java,*.kt,*.swift,*.m,*.h,*.dart,*.xml,*.gradle,*.plist,*.pbxproj,*.xcodeproj,*.xcworkspace
 alwaysApply: false
 ---
 
+モバイルアプリ開発者向けのルールです
+
 主にネイティブアプリ開発、クロスプラットフォーム開発、UI/UX設計、パフォーマンス最適化、オフライン対応、プッシュ通知などのモバイルアプリ開発に関する手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 

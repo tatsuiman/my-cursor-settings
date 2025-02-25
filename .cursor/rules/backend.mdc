@@ -1,8 +1,10 @@
 ---
 description: バックエンドエンジニア向けのルール
-globs: 
+globs: *.js,*.ts,*.py,*.java,*.go,*.rb,*.php,*.cs,*.rs,*.scala
 alwaysApply: false
 ---
 
+バックエンドエンジニア向けのルールです
+
 主にAPI設計、データ処理、認証・認可、パフォーマンス最適化、マイクロサービスアーキテクチャなどのバックエンド開発に関する手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 
