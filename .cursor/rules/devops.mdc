@@ -1,0 +1,8 @@
+---
+description: DevOpsエンジニア向けのルール
+globs: 
+alwaysApply: false
+---
+
+主にCI/CDパイプライン、コンテナ化、オーケストレーション、モニタリング、ロギング、自動化、障害対応などのDevOps関連の手順について記載します。
+Cursor Agentで調査して記述してください。 

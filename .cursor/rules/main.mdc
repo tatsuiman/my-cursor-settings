@@ -1,0 +1,7 @@
+---
+description: メインルール
+globs: *.md
+alwaysApply: true
+---
+ここにプロジェクトのメインとなるドキュメントを記載します。
+Cursor Agentを使ってプロジェクトの概要を調査し記述してください。

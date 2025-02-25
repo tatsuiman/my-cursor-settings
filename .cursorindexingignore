@@ -1,0 +1,24 @@
+# Start of Selection
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+# secrets
+.env
+.envrc
+# license
+LICENSE
+# vscode
+.vscode
+# projects
+projects
+# examples
+examples/
+# ignore files
+.ignore*
+# assets
+assets/
+# cache
+__pycache__
+# Log files to ignore
+*.log
+logs/
+# Data files to ignore
+*.csv

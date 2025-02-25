@@ -1,0 +1,8 @@
+---
+description: AI/ML開発者向けのルール
+globs: 
+alwaysApply: false
+---
+
+主にデータ前処理、モデル設計、トレーニング、評価、デプロイ、モニタリング、倫理的配慮などのAI/ML開発に関する手順について記載します。
+Cursor Agentで調査して記述してください。
