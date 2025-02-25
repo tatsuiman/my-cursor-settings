@@ -1,0 +1,67 @@
+---
+description: Cursor専用のルール
+globs: .cursorignore,.cursorindexingignore
+alwaysApply: false
+---
+
+Cursor専用のルールです
+
+## インデックス最適化
+
+### .cursorignoreの活用
+
+`.cursorignore`ファイルを使用することで、Cursorのインデックス対象から特定のファイルやディレクトリを除外できます。これにより、大規模プロジェクトやモノレポ構成でのパフォーマンスが向上し、AIの回答精度も高まります。
+
+#### インデックス対象から外す戦略
+
+1. **ビルド成果物やキャッシュを除外**
+   - `dist/`, `build/`, `node_modules/`, `.cache/` などのディレクトリ
+   - コンパイル済みファイル（`.js.map`, `.d.ts`など）
+
+2. **大量の自動生成コードを除外**
+   - 自動生成されたスキーマファイル
+   - 大量のボイラープレートコード
+
+3. **関連性の低いサブプロジェクトを除外**
+   - モノレポ内の現在作業していない他のプロジェクト
+   - 使用頻度の低いレガシーコード
+
+#### .cursorignoreの例
+
+```
+# ビルド成果物
+dist/
+build/
+*.js.map
+
+# 依存関係
+node_modules/
+vendor/
+.yarn/
+
+# キャッシュ
+.cache/
+.tmp/
+
+# 大きなデータファイル
+*.csv
+*.json
+!package.json
+!tsconfig.json
+
+# 自動生成コード
+src/generated/
+*.generated.*
+
+# モノレポの他プロジェクト（現在作業中のプロジェクト以外）
+projects/project-b/
+projects/project-c/
+```
+
+#### モノレポ構成との相性
+
+モノレポ構造のプロジェクトでは、作業中のサブプロジェクト以外を`.cursorignore`で除外することで、Cursorのパフォーマンスと回答精度を大幅に向上させることができます。必要に応じて、作業対象のプロジェクトが変わったら`.cursorignore`の設定も更新しましょう。
+
+## Rules for AIとの連携
+
+`.cursorignore`でインデックス対象を最適化した上で、Rules for AIや`.cursorrules`を併用することで、より効果的なAIアシスタンスを実現できます。プロジェクト固有のコーディング規約やアーキテクチャの情報をルールとして定義しておくと、AIがプロジェクトの文脈を理解した上で適切な提案を行えるようになります。 

@@ -13,6 +13,7 @@ Cursor IDEは強力なAIアシスタント機能を持つコードエディタ�
   └── rules/
       ├── ai.mdc - AI/ML開発者向けのルール
       ├── backend.mdc - バックエンドエンジニア向けのルール
+      ├── cursor.mdc - Cursor専用のルール（インデックス最適化など）
       ├── database.mdc - データベースエンジニア向けのルール
       ├── devops.mdc - DevOpsエンジニア向けのルール
       ├── frontend.mdc - フロントエンドエンジニア向けのルール
@@ -51,6 +52,17 @@ alwaysApply: 常に適用するかどうか
 - `globs`: ルールを適用するファイルパターン（例：`*.js,*.ts`）
 - `alwaysApply`: 常にルールを適用するかどうか（`true`または`false`）
 - 本文：ルールの詳細な説明や手順
+
+## インデックス最適化
+
+`cursor.mdc`ファイルには、Cursorのインデックス最適化に関する情報が含まれています。大規模プロジェクトやモノレポ構成での効率的な使用方法について説明しています。主な内容：
+
+- `.cursorignore`ファイルの活用方法
+- インデックス対象から除外すべきファイル・ディレクトリの戦略
+- モノレポ構成でのベストプラクティス
+- Rules for AIとの連携方法
+
+詳細については、[Cursor高度な使い方テクニック](https://zenn.dev/shosampo/articles/cursor-advanced-techniques)を参照してください。
 
 ## 貢献方法
 

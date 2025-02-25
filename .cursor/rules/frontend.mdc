@@ -1,8 +1,10 @@
 ---
 description: フロントエンドエンジニア向けのルール
-globs: 
+globs: *.html,*.css,*.scss,*.sass,*.less,*.js,*.jsx,*.ts,*.tsx,*.vue,*.svelte,*.json,*.svg
 alwaysApply: false
 ---
 
+フロントエンドエンジニア向けのルールです
+
 主にUI/UXデザイン、コンポーネント設計、状態管理、パフォーマンス最適化などのフロントエンド開発に関する手順について記載します。
-Cursor Agentで調査して記述してください。
+Cursor Agentで調査して記述してください。 
